@@ -1,0 +1,95 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    position: relative;
+    top: 80px;
+    left: 100px;
+    width: 1440px;
+    
+}
+.container
+{
+    display: flex;
+  
+    flex-direction: row-reverse ;
+    width: 1110px;
+    height: 445px;
+    border: 2px solid hsl(233, 47%, 7%);
+    border-radius:  15px ;
+    
+}
+.photo{
+    height: 100%;
+    width: 550px;
+    background-color: hsl(277, 64%, 61%);
+    position: relative;
+    background-image: url(images/image-header-desktop.jpg);
+    border-radius:0 15px 15px 0;
+    
+
+}
+    
+img{
+    width: 100%;
+    height: 100%;
+    border-radius:0 15px 15px 0;
+    mix-blend-mode: multiply;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: hsl(327, 71%, 51%);
+    opacity: 40%;
+    border-radius:0 15px 15px 0;
+    mix-blend-mode: multiply;
+}
+
+
+    
+
+
+.info{
+    
+    padding: 50px;
+    width: 37%;
+    background-color: hsl(244, 38%, 16%);
+    border: 2px solid hsl(244, 38%, 16%);
+    border-radius:  15px 0 0 15px ;
+}
+h1{
+       font-family: 'Inter', sans-serif;
+       color: hsla(0, 0%, 100%);
+}
+
+.info p{
+    font-family: 'Inter', sans-serif;
+color: hsla(0, 0%, 100%,0.7);
+padding-top: 25px;
+}
+ span {
+    color: hsl(277, 64%, 61%);
+}
+.states{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+       color: hsla(0, 0%, 100%);
+       text-transform: uppercase;
+
+}
+.states-block{
+    margin-top: 80px;
+    padding-right: 60px;
+}
+.states-num{
+    font-weight: bold;
+    Font-size: 15px;
+    padding-bottom: 25px;
+}
+.states-info{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    Font-size: 10px;
+}
